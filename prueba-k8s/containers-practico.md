@@ -1,3 +1,5 @@
+Esta es la seccion practica:
+
 1. Traerse el repo del código para el taller:
  `git clone -b develop https://github.com/FenicioApp/taller-grupo1.git taller`{{execute}}
 2. ir al repo: `cd taller`{{execute}}
@@ -6,6 +8,9 @@
 5. Agregarle las siguientes lineas:
 ![Dockerfile](./assets/dockerfile-1.png)
 
+> FROM: indica la imagen base sobre la que se construirá la aplicación dentro del contenedor. En este caso: FROM php:7.4.8-fpm
+
+> ENV: establece variables de entorno para nuestro contenedor. En este caso: ENV PHP-VERSION=7.4
 	### 1.
  ### FROM
 ## :

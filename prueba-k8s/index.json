@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Armado de Dockerfile",
-        "text": "step1.md"
+        "title": "Armado de Dockerfile - Teorico",
+        "text": "containers.md"
+      },
+      {
+        "title": "Armado de Dockerfile - Practico",
+        "text": "containers-practico.md"
       },
       {
         "title": "Armado de contenedor y ejecución",
